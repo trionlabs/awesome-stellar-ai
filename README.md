@@ -15,7 +15,6 @@ The list focuses on projects where Stellar is a meaningful part of the agent arc
 - [Agents and Applications](#agents-and-applications)
 - [Developer Resources](#developer-resources)
 - [Hackathons](#hackathons)
-- [Contributing](#contributing)
 
 ## Core Protocols and Standards
 
