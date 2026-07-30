@@ -73,7 +73,3 @@ The list focuses on projects where Stellar is a meaningful part of the agent arc
 ## Contributing
 
 Contributions are welcome. Read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request. This is a curated list, so inclusion is based on technical relevance, public evidence, and usefulness rather than submission alone.
-
-## License
-
-[CC0](LICENSE) - To the extent possible under law, the maintainers have waived all copyright and related or neighboring rights to this work.
