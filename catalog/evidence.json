@@ -54,7 +54,7 @@
         },
         {
           "type": "release",
-          "url": "https://www.npmjs.com/package/stellar-agent-search"
+          "url": "https://registry.npmjs.org/stellar-agent-search/latest"
         }
       ]
     },
