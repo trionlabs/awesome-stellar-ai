@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   links:
@@ -15,10 +16,31 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
       - name: Check links
+        id: lychee
+        continue-on-error: true
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --verbose --no-progress --max-retries 3
+            --config lychee.toml --verbose --no-progress
             './**/*.md'
             catalog/evidence.json
           fail: true
+      # A scheduled check that only reddens the Actions tab has no reader, so
+      # failures are routed to a tracking issue the maintainers actually see.
+      - name: Open or update the broken-link issue
+        if: steps.lychee.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: Broken links detected
+        run: |
+          details="$(cat lychee/out.md 2>/dev/null || echo 'See the workflow log for details.')"
+          body="$(printf 'The weekly link-health run reported unreachable links.\n\n%s\n\nA broken primary link is grounds for correcting or removing the entry, per GOVERNANCE.md.\n\n[Workflow run](%s/%s/actions/runs/%s)\n' "$details" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          existing="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$TITLE" --body "$body"
+          fi
+      - name: Fail if links are broken
+        if: steps.lychee.outcome == 'failure'
+        run: exit 1

@@ -1,0 +1,50 @@
+name: Catalog freshness
+
+# The review cadence is an editorial obligation owned by the maintainers, so it
+# is enforced here on a schedule instead of in the pull request lint job, where
+# it would block contributors for entries they did not touch.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 8 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Check evidence freshness
+        id: freshness
+        env:
+          CATALOG_ENFORCE_STALENESS: "1"
+        run: |
+          set +e
+          npm run check:catalog > freshness.log 2>&1
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          cat freshness.log
+      - name: Open or update the review tracking issue
+        if: steps.freshness.outputs.exit_code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: Evidence review due
+        run: |
+          body="$(printf 'The scheduled freshness check reported entries past the review cadence.\n\n```\n%s\n```\n\nRun `npm run check:catalog` locally and reverify each entry listed above, then update its `reviewedOn` in `catalog/evidence.json`. Do not bulk-edit the dates: an unreviewed date defeats the audit trail the catalog exists to provide.\n\n[Workflow run](%s/%s/actions/runs/%s)\n' "$(cat freshness.log)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          existing="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$TITLE" --body "$body"
+          fi
+      - name: Fail if evidence is stale
+        if: steps.freshness.outputs.exit_code != '0'
+        run: exit 1

@@ -24,5 +24,5 @@ State whether you maintain, fund, advise, or otherwise have a material relations
 - [ ] Mainnet, testnet, live, published, and integration claims have public evidence.
 - [ ] All links are public, direct, and working.
 - [ ] I added or updated the matching record in `catalog/evidence.json`.
-- [ ] `npm run check:catalog` and `npx --yes awesome-lint` pass locally.
+- [ ] `npm test`, `npm run check:catalog`, and `npx --yes awesome-lint` pass locally.
 - [ ] I disclosed my relationship with the project.

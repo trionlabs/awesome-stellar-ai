@@ -9,6 +9,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "check:catalog": "node scripts/validate-catalog.mjs"
+    "check:catalog": "node scripts/validate-catalog.mjs",
+    "test": "node --test scripts/*.test.mjs"
   }
 }

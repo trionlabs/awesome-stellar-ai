@@ -26,8 +26,8 @@ Projects in development may be included when they contain substantial public wor
 3. Read the project's source, documentation, and deployment evidence.
 4. Verify that every link is public and directly relevant.
 5. Disclose in the pull request if you maintain, fund, advise, or otherwise have a material relationship with the project.
-6. Add or update the matching record in `catalog/evidence.json`.
-7. Run `npm run check:catalog` and `npx --yes awesome-lint`.
+6. Add or update the matching record in `catalog/evidence.json`. Cite a source outside the project's own page wherever the claim allows it; a repository is not evidence for its own deployment.
+7. Run `npm test`, `npm run check:catalog`, and `npx --yes awesome-lint`.
 
 Maintainer-affiliated projects are evaluated under the same criteria as all other entries.
 

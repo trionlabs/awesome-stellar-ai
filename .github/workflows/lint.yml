@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 22
+      - name: Test the validator
+        run: npm test
       - name: Validate evidence catalog
         run: npm run check:catalog
       - name: Run awesome-lint
