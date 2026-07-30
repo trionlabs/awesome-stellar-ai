@@ -58,6 +58,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: evidence
+    attributes:
+      label: Verification links
+      description: Provide direct public links for each mainnet, testnet, live-service, package-release, or standards-integration claim.
+    validations:
+      required: true
+  - type: textarea
     id: relationship
     attributes:
       label: Relationship disclosure
@@ -74,4 +81,6 @@ body:
         - label: The submission and linked evidence are public.
           required: true
         - label: The project has substantive Stellar and AI-agent functionality.
+          required: true
+        - label: I understand that inclusion is editorial and may be revisited when evidence or project status changes.
           required: true

@@ -1,0 +1,14 @@
+{
+  "name": "awesome-stellar-ai",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Editorial tooling for the Awesome Stellar AI catalog.",
+  "license": "CC0-1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check:catalog": "node scripts/validate-catalog.mjs"
+  }
+}

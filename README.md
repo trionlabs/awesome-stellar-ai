@@ -1,8 +1,10 @@
 # Awesome Stellar AI [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> A curated list of protocols, infrastructure, developer tools, and applications for AI agents on Stellar.
+> AI agent protocols, infrastructure, developer tools, and applications built on Stellar.
 
-The list focuses on projects where Stellar is a meaningful part of the agent architecture: identity, payments, authorization, coordination, settlement, or verifiable on-chain activity. Projects are grouped by their primary function, not by where they first appeared.
+This community-curated list covers projects where Stellar is a meaningful part of the agent architecture: identity, payments, authorization, coordination, settlement, or verifiable on-chain activity. Stellar is not an EVM chain; EVM-origin standards belong here only when they have a concrete Stellar or Soroban implementation. Projects are grouped by their primary function, not by where they first appeared.
+
+Awesome Stellar AI is independent and is not an official Stellar Development Foundation directory. Inclusion decisions follow the [governance policy](GOVERNANCE.md), and every entry has a review record in the [evidence catalog](catalog/evidence.json).
 
 ## Contents
 
@@ -18,8 +20,8 @@ The list focuses on projects where Stellar is a meaningful part of the agent arc
 
 ## Core Protocols and Standards
 
-- [Machine Payments Protocol SDK](https://github.com/stellar/stellar-mpp-sdk) - Stellar's SDK for MPP charge payments and off-chain payment channels with on-chain settlement.
-- [Stellar 8004](https://github.com/trionlabs/stellar-8004) - Mainnet identity, reputation, and validation infrastructure for AI agents, with Soroban contracts, a TypeScript SDK, an indexer, and an explorer.
+- [@stellar/mpp](https://github.com/stellar/stellar-mpp-sdk) - Stellar payment method for MPP charge payments and off-chain payment channels with on-chain settlement.
+- [Stellar 8004](https://github.com/trionlabs/stellar-8004) - Mainnet Soroban implementation of ERC-8004 identity, reputation, and validation registries, with a TypeScript SDK, an indexer, and an explorer.
 - [x402](https://github.com/x402-foundation/x402) - Open HTTP payment protocol with native Stellar support through the `@x402/stellar` package.
 
 ## Identity, Reputation, and Discovery
@@ -66,8 +68,8 @@ The list focuses on projects where Stellar is a meaningful part of the agent arc
 
 ## Hackathons
 
-- [Stellar Hacks: Agents](https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp/detail) - 2026 hackathon focused on agents and micropayments using x402 and MPP; its five winners were Cards402, CleverCon, RenderGate, x402 MCP Stellar Template, and TollPay.
 - [Stellar Agents Hackathon Retrospective](https://developers.stellar.org/meetings/2026/04/23) - Stellar Development Foundation overview of notable submissions and the technical patterns that emerged from the event.
+- [Stellar Hacks: Agents](https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp/detail) - 2026 hackathon focused on agents and micropayments using x402 and MPP; its five winners were Cards402, CleverCon, RenderGate, x402 MCP Stellar Template, and TollPay.
 
 ## Contributing
 

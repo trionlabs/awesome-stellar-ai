@@ -26,8 +26,23 @@ Projects in development may be included when they contain substantial public wor
 3. Read the project's source, documentation, and deployment evidence.
 4. Verify that every link is public and directly relevant.
 5. Disclose in the pull request if you maintain, fund, advise, or otherwise have a material relationship with the project.
+6. Add or update the matching record in `catalog/evidence.json`.
+7. Run `npm run check:catalog` and `npx --yes awesome-lint`.
 
 Maintainer-affiliated projects are evaluated under the same criteria as all other entries.
+
+## Editorial Review
+
+Every accepted entry must also have a record in `catalog/evidence.json`. The record is an editorial audit trail, not a quality score. It identifies the primary URL, category, review date, and public sources used to verify the entry.
+
+Reviewers evaluate submissions across four questions:
+
+1. **Relevance:** Is Stellar essential to the agent workflow rather than incidental?
+2. **Substance:** Is there working code, a usable deployment, or detailed technical documentation?
+3. **Evidence:** Can a reader independently verify material claims?
+4. **Distinctiveness:** Does the project add a capability or reference that the list does not already cover?
+
+Stars, funding, hackathon placement, and maintainer relationships do not replace these questions. A project does not need to be production-ready, but its description must state its maturity accurately.
 
 ## Entry Format
 
@@ -75,3 +90,9 @@ In the pull request description, include:
 - Your relationship to the project, if any.
 
 By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Reverification and Removal
+
+Entries are rechecked at least every 120 days. A project may be corrected, moved, or removed when its primary link breaks, its evidence disappears, its description becomes misleading, it is archived without lasting reference value, or its Stellar or agent functionality is no longer substantive.
+
+Removal is not a judgment on a team or product. It means the entry no longer meets the list's current evidence standard. Projects may be resubmitted when the missing evidence or functionality is restored.

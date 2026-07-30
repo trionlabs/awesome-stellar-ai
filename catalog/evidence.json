@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "reviewCadenceDays": 120,
+  "entries": [
+    {
+      "name": "@stellar/mpp",
+      "url": "https://github.com/stellar/stellar-mpp-sdk",
+      "category": "Core Protocols and Standards",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "documentation",
+          "url": "https://developers.stellar.org/docs/build/agentic-payments/mpp"
+        }
+      ]
+    },
+    {
+      "name": "Stellar 8004",
+      "url": "https://github.com/trionlabs/stellar-8004",
+      "category": "Core Protocols and Standards",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/trionlabs/stellar-8004/blob/main/TECHNICAL.md"
+        },
+        {
+          "type": "deployment",
+          "url": "https://github.com/trionlabs/stellar-8004#contracts"
+        }
+      ]
+    },
+    {
+      "name": "x402",
+      "url": "https://github.com/x402-foundation/x402",
+      "category": "Core Protocols and Standards",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "documentation",
+          "url": "https://developers.stellar.org/docs/build/agentic-payments/x402"
+        }
+      ]
+    },
+    {
+      "name": "stellar-agent-search",
+      "url": "https://github.com/berkingurcan/stellar-agent-search",
+      "category": "Identity, Reputation, and Discovery",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/berkingurcan/stellar-agent-search/blob/main/docs/evidence.md"
+        },
+        {
+          "type": "release",
+          "url": "https://www.npmjs.com/package/stellar-agent-search"
+        }
+      ]
+    },
+    {
+      "name": "MPP Router",
+      "url": "https://github.com/mpprouter/rozo-mpprouter",
+      "category": "Agent Payments and Monetization",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/mpprouter/rozo-mpprouter#readme"
+        }
+      ]
+    },
+    {
+      "name": "RouteDock",
+      "url": "https://github.com/winsznx/routedock",
+      "category": "Agent Payments and Monetization",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/winsznx/routedock#live-testnet-transactions"
+        }
+      ]
+    },
+    {
+      "name": "TollPay",
+      "url": "https://github.com/rajkaria/toll",
+      "category": "Agent Payments and Monetization",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/rajkaria/toll/blob/main/TRANSACTIONS.md"
+        }
+      ]
+    },
+    {
+      "name": "x402 MCP Stellar Template",
+      "url": "https://github.com/ffarinas/x402-mcp-stellar-template",
+      "category": "Agent Payments and Monetization",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/ffarinas/x402-mcp-stellar-template#on-chain-proofs-stellar-mainnet"
+        }
+      ]
+    },
+    {
+      "name": "Prism",
+      "url": "https://github.com/Bekirerdem/prism",
+      "category": "Wallets, Authorization, and Policy",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/Bekirerdem/prism#readme"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Agent Wallet Skill",
+      "url": "https://github.com/mpprouter/stellar-agent-wallet-skill",
+      "category": "Wallets, Authorization, and Policy",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/mpprouter/stellar-agent-wallet-skill#readme"
+        }
+      ]
+    },
+    {
+      "name": "Pulsar",
+      "url": "https://github.com/benelabs/pulsar",
+      "category": "MCP Servers and Agent Tooling",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/benelabs/pulsar#readme"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Raven",
+      "url": "https://github.com/kalepail/stellar-raven",
+      "category": "MCP Servers and Agent Tooling",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/kalepail/stellar-raven#readme"
+        },
+        {
+          "type": "deployment",
+          "url": "https://raven.stellar.buzz"
+        }
+      ]
+    },
+    {
+      "name": "AI-Net",
+      "url": "https://github.com/Epta-Node/ai-net",
+      "category": "Marketplaces and Coordination",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/Epta-Node/ai-net#readme"
+        }
+      ]
+    },
+    {
+      "name": "CleverCon",
+      "url": "https://github.com/clevercon-protocol/clevercon",
+      "category": "Marketplaces and Coordination",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/clevercon-protocol/clevercon#readme"
+        }
+      ]
+    },
+    {
+      "name": "Talos",
+      "url": "https://github.com/enliven17/talos-stellar",
+      "category": "Marketplaces and Coordination",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/enliven17/talos-stellar#readme"
+        }
+      ]
+    },
+    {
+      "name": "ASGCard",
+      "url": "https://github.com/ASGCompute/asgcard-public",
+      "category": "Agents and Applications",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/ASGCompute/asgcard-public#readme"
+        }
+      ]
+    },
+    {
+      "name": "Cards402",
+      "url": "https://github.com/CTX-com/Cards402",
+      "category": "Agents and Applications",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/CTX-com/Cards402#contract--soroban-smart-contract"
+        }
+      ]
+    },
+    {
+      "name": "Nulucre Agents",
+      "url": "https://github.com/vjshaw/nulucre-agents",
+      "category": "Agents and Applications",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/vjshaw/nulucre-agents#pricing--networks"
+        }
+      ]
+    },
+    {
+      "name": "RenderGate",
+      "url": "https://github.com/tantk/rendergate",
+      "category": "Agents and Applications",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "deployment",
+          "url": "https://github.com/tantk/rendergate#how-it-works"
+        }
+      ]
+    },
+    {
+      "name": "Building with AI",
+      "url": "https://developers.stellar.org/docs/build/building-with-ai",
+      "category": "Developer Resources",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "documentation",
+          "url": "https://developers.stellar.org/docs/build/building-with-ai"
+        }
+      ]
+    },
+    {
+      "name": "Lumen Loop",
+      "url": "https://github.com/lumenloop/lumenloop-overview",
+      "category": "Developer Resources",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/lumenloop/lumenloop-overview#readme"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Agentic Payments",
+      "url": "https://developers.stellar.org/docs/build/agentic-payments",
+      "category": "Developer Resources",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "documentation",
+          "url": "https://developers.stellar.org/docs/build/agentic-payments"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Dev Skill",
+      "url": "https://github.com/stellar/stellar-dev-skill",
+      "category": "Developer Resources",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/stellar/stellar-dev-skill#readme"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Light",
+      "url": "https://github.com/Stellar-Light/stellarlight",
+      "category": "Developer Resources",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/Stellar-Light/stellarlight#readme"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Agents Hackathon Retrospective",
+      "url": "https://developers.stellar.org/meetings/2026/04/23",
+      "category": "Hackathons",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "event",
+          "url": "https://developers.stellar.org/meetings/2026/04/23"
+        }
+      ]
+    },
+    {
+      "name": "Stellar Hacks: Agents",
+      "url": "https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp/detail",
+      "category": "Hackathons",
+      "reviewedOn": "2026-07-30",
+      "evidence": [
+        {
+          "type": "event",
+          "url": "https://dorahacks.io/hackathon/stellar-agents-x402-stripe-mpp/detail"
+        },
+        {
+          "type": "documentation",
+          "url": "https://developers.stellar.org/meetings/2026/04/23"
+        }
+      ]
+    }
+  ]
+}

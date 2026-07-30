@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guidelines
+    url: https://github.com/yamancan/awesome-stellar-ai/blob/main/CONTRIBUTING.md
+    about: Read the evidence and formatting requirements before submitting a project.
