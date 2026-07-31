@@ -1,0 +1,10 @@
+# GOVERNANCE.md requires that a maintainer not be the only reviewer of an
+# addition they are affiliated with. Listing every maintainer here is what makes
+# that possible: GitHub never requests review from the author, so an affiliated
+# pull request always lands in someone else's queue.
+#
+# CODEOWNERS only requests reviews. To make the two-person rule binding, add a
+# ruleset on `main` requiring one approval from a code owner; that is configured
+# in repository settings and cannot be committed here.
+
+* @yamancan @0x471 @ozthewizard0

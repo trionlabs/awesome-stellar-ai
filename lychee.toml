@@ -1,0 +1,20 @@
+# Link-checking configuration.
+#
+# Some hosts reject non-browser clients rather than serving the page. DoraHacks,
+# for example, answers 405 to lychee's default user agent and 200 to a browser
+# one. That is a refusal to talk to us, not a dead link, so it is handled here
+# by presenting a browser user agent and by treating "host refused the request"
+# status codes as reachable.
+#
+# This replaces a per-URL entry in .lycheeignore. An exclusion silences a URL
+# permanently, including the case we actually care about: the page going away.
+# These rules keep 404 and 5xx failing for every entry in the list.
+
+user_agent = "Mozilla/5.0 (compatible; awesome-stellar-ai link checker; +https://github.com/trionlabs/awesome-stellar-ai)"
+
+# 403 forbidden, 405 method not allowed, 429 rate limited: the host answered,
+# it just declined to serve this client. 404 and 5xx are still failures.
+accept = [200, 206, 403, 405, 429]
+
+max_retries = 3
+timeout = 30

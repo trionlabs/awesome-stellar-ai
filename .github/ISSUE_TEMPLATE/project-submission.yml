@@ -1,0 +1,86 @@
+name: Project submission
+description: Suggest a project for Awesome Stellar AI.
+title: "Add: "
+labels:
+  - project submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a project. Read `CONTRIBUTING.md` before submitting. Inclusion is curated and is not guaranteed.
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository or primary technical URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - Core Protocols and Standards
+        - Identity, Reputation, and Discovery
+        - Agent Payments and Monetization
+        - Wallets, Authorization, and Policy
+        - MCP Servers and Agent Tooling
+        - Marketplaces and Coordination
+        - Agents and Applications
+        - Developer Resources
+        - Hackathons
+    validations:
+      required: true
+  - type: textarea
+    id: stellar
+    attributes:
+      label: How does it use Stellar?
+      description: Link contracts, transactions, code, or technical documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: agents
+    attributes:
+      label: What is the AI or agent functionality?
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: Deployment and maintenance status
+      description: State whether it is mainnet, testnet, live, published, or in development, and provide evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification links
+      description: Provide direct public links for each mainnet, testnet, live-service, package-release, or standards-integration claim.
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: Disclose whether you maintain, fund, advise, or otherwise have a material relationship with the project.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I read the contribution guidelines.
+          required: true
+        - label: The submission and linked evidence are public.
+          required: true
+        - label: The project has substantive Stellar and AI-agent functionality.
+          required: true
+        - label: I understand that inclusion is editorial and may be revisited when evidence or project status changes.
+          required: true
