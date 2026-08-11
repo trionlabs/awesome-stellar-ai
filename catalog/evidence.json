@@ -106,7 +106,7 @@
       "evidence": [
         {
           "type": "release",
-          "url": "https://registry.npmjs.org/@rozoai/checkout/latest"
+          "url": "https://registry.npmjs.org/@rozoai/checkout/0.1.6"
         },
         {
           "type": "documentation",
