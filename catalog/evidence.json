@@ -99,6 +99,26 @@
       ]
     },
     {
+      "name": "ROZO Checkout",
+      "url": "https://github.com/RozoAI/rozo-checkout-skill",
+      "category": "Agent Payments and Monetization",
+      "reviewedOn": "2026-08-10",
+      "evidence": [
+        {
+          "type": "release",
+          "url": "https://registry.npmjs.org/@rozoai/checkout/0.1.6"
+        },
+        {
+          "type": "documentation",
+          "url": "https://developers.stellar.org/docs/build/agentic-payments"
+        },
+        {
+          "type": "source",
+          "url": "https://github.com/RozoAI/rozo-checkout-skill/blob/main/SKILL.md"
+        }
+      ]
+    },
+    {
       "name": "TollPay",
       "url": "https://github.com/rajkaria/toll",
       "category": "Agent Payments and Monetization",
