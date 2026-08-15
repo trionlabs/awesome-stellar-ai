@@ -28,6 +28,7 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 - [@stellar/mpp](https://github.com/stellar/stellar-mpp-sdk) - Official SDK implementing the Stellar payment method for MPP charge payments and off-chain payment channels with on-chain settlement.
 - [Stellar 8004](https://github.com/trionlabs/stellar-8004) - 🟢 Mainnet Soroban implementation of ERC-8004 identity, reputation, and validation registries, with a TypeScript SDK, an indexer, and an explorer; maintained by this list's maintainer ([registry contract](https://stellar.expert/explorer/public/contract/CBGPDCJIHQ32G42BE7F2CIT3YW6XRN5ED6GQJHCRZSNAYH6TGMCL6X35)).
+- [Stellar 8183](https://github.com/trionlabs/stellar-8183) - 🟢 Testnet Soroban implementation of ERC-8183 agentic commerce, with an immutable job-escrow kernel, allowlisted policy hooks, and a relayed-auth TypeScript SDK; maintained by this list's maintainer ([kernel contract](https://stellar.expert/explorer/testnet/contract/CA4LPJIQZEGMCYA4WV5W4F6X6RGLGX2YO7IRZJKVXSEJXOZNTTYUEBIW)).
 - [x402](https://github.com/x402-foundation/x402) - Open HTTP payment protocol with native Stellar support through the `@x402/stellar` package.
 
 ## Identity, Reputation, and Discovery
