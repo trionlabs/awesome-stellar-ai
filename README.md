@@ -32,7 +32,7 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 ## Identity, Reputation, and Discovery
 
-- [stellar-agent-search](https://github.com/berkingurcan/stellar-agent-search) - 🟢 Read-only MCP server and CLI for discovering, ranking, and vetting agents registered with Stellar 8004; the local package is released and its hosted transport is pending ([proof](https://registry.npmjs.org/stellar-agent-search/latest)).
+- [stellar-agent-search](https://github.com/berkingurcan/stellar-agent-search) - 🟢 Read-only MCP server and CLI for discovering, ranking, and vetting agents registered with Stellar 8004; the local package is published to npm and the official MCP Registry, while its hosted transport is pending ([npm](https://registry.npmjs.org/stellar-agent-search/latest), [registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.berkingurcan%2Fstellar-agent-search/versions/0.1.0)).
 
 ## Agent Payments and Monetization
 

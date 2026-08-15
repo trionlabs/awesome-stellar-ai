@@ -54,7 +54,7 @@
       "name": "stellar-agent-search",
       "url": "https://github.com/berkingurcan/stellar-agent-search",
       "category": "Identity, Reputation, and Discovery",
-      "reviewedOn": "2026-07-30",
+      "reviewedOn": "2026-08-14",
       "evidence": [
         {
           "type": "source",
@@ -63,6 +63,10 @@
         {
           "type": "release",
           "url": "https://registry.npmjs.org/stellar-agent-search/latest"
+        },
+        {
+          "type": "release",
+          "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.berkingurcan%2Fstellar-agent-search/versions/0.1.0"
         }
       ]
     },
