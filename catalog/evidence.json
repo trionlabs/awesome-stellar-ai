@@ -39,6 +39,30 @@
       ]
     },
     {
+      "name": "Stellar 8183",
+      "url": "https://github.com/trionlabs/stellar-8183",
+      "category": "Core Protocols and Standards",
+      "reviewedOn": "2026-08-15",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/trionlabs/stellar-8183/blob/main/docs/protocol.md"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/testnet/contract/CA4LPJIQZEGMCYA4WV5W4F6X6RGLGX2YO7IRZJKVXSEJXOZNTTYUEBIW"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/testnet/contract/CDBL5VG4W5VCZXUXYJBODQJ45VKCMTNRCSNNIBKYZKV6TSO6KD5Q3QK5"
+        },
+        {
+          "type": "release",
+          "url": "https://github.com/trionlabs/stellar-8183/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
       "name": "x402",
       "url": "https://github.com/x402-foundation/x402",
       "category": "Core Protocols and Standards",
