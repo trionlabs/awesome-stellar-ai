@@ -50,6 +50,7 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 ## MCP Servers and Agent Tooling
 
+- [AgentPay](https://github.com/romudille-bit/agentpay) - 🟢 MCP server exposing market-data, pre-trade risk-check, and delivery-verified routing tools to agents, with per-session and per-tool spending caps and a verifiable receipt for each paid call, settled in USDC on Stellar mainnet and Base ([package](https://registry.npmjs.org/@romudille/agentpay-mcp/2.4.3), [registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.romudille-bit/agentpay), [proof](https://stellar.expert/explorer/public/tx/e39321f1e35a2e972311c3d726cd5757e1fb88998da80b21ea8aab6b0470271d)).
 - [Pulsar](https://github.com/benelabs/pulsar) - MCP server for Stellar and Soroban development, including account queries, transaction simulation, contract deployment, and transaction submission.
 - [Stellar Raven](https://github.com/kalepail/stellar-raven) - 🟡 Hosted MCP gateway that combines official Stellar documentation, live ecosystem data, community intelligence, and tested development playbooks ([live service](https://raven.stellar.buzz)).
 
