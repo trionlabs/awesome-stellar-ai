@@ -37,6 +37,7 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 ## Agent Payments and Monetization
 
+- [AgentPay](https://github.com/romudille-bit/agentpay) - 🟢 Buyer-side payment gateway with hard budget caps and per-call USDC receipts for agent tool calls; settles on Stellar mainnet via its Python SDK and on Base via its MCP server ([package](https://registry.npmjs.org/@romudille/agentpay-mcp/2.4.3), [registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.romudille-bit/agentpay), [proof](https://stellar.expert/explorer/public/tx/e39321f1e35a2e972311c3d726cd5757e1fb88998da80b21ea8aab6b0470271d)).
 - [MPP Router](https://github.com/mpprouter/rozo-mpprouter) - 🟢 Open-source router for reaching paid MPP services from Stellar-funded clients through a stable API on mainnet ([live service](https://apiserver.mpprouter.dev/health), [proof](https://stellar.expert/explorer/public/account/GDK3AVW3YE6UL3J4WLNKBMP65KSY32YPUKIOC6PXW65XJ3LEG3YIDXXB)).
 - [RouteDock](https://github.com/winsznx/routedock) - 🟢 Unified client for x402, MPP charge, and MPP session payments on Stellar testnet ([proof](https://stellar.expert/explorer/testnet/tx/5f603387807faacdc02c71efb74b26091b1be67740f74dfd581d23d643e2db64)).
 - [ROZO Checkout](https://github.com/RozoAI/rozo-checkout-skill) - Agent skill and npm CLI that settles a Coinbase Payment Link invoice with Stellar USDC, routing the deposit and its required text memo so services that only accept USDC on Base can be funded from Stellar ([package](https://registry.npmjs.org/@rozoai/checkout/0.1.6)).
@@ -50,7 +51,6 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 ## MCP Servers and Agent Tooling
 
-- [AgentPay](https://github.com/romudille-bit/agentpay) - 🟢 MCP server exposing market-data, pre-trade risk-check, and delivery-verified routing tools to agents, with per-session and per-tool spending caps and a verifiable receipt for each paid call, settled in USDC on Stellar mainnet and Base ([package](https://registry.npmjs.org/@romudille/agentpay-mcp/2.4.3), [registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.romudille-bit/agentpay), [proof](https://stellar.expert/explorer/public/tx/e39321f1e35a2e972311c3d726cd5757e1fb88998da80b21ea8aab6b0470271d)).
 - [Pulsar](https://github.com/benelabs/pulsar) - MCP server for Stellar and Soroban development, including account queries, transaction simulation, contract deployment, and transaction submission.
 - [Stellar Raven](https://github.com/kalepail/stellar-raven) - 🟡 Hosted MCP gateway that combines official Stellar documentation, live ecosystem data, community intelligence, and tested development playbooks ([live service](https://raven.stellar.buzz)).
 
