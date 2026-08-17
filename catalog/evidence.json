@@ -95,6 +95,30 @@
       ]
     },
     {
+      "name": "AgentPay",
+      "url": "https://github.com/romudille-bit/agentpay",
+      "category": "Agent Payments and Monetization",
+      "reviewedOn": "2026-08-16",
+      "evidence": [
+        {
+          "type": "release",
+          "url": "https://registry.npmjs.org/@romudille/agentpay-mcp/2.4.3"
+        },
+        {
+          "type": "release",
+          "url": "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.romudille-bit/agentpay"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/public/tx/e39321f1e35a2e972311c3d726cd5757e1fb88998da80b21ea8aab6b0470271d"
+        },
+        {
+          "type": "documentation",
+          "url": "https://agentpay.tools/guides"
+        }
+      ]
+    },
+    {
       "name": "MPP Router",
       "url": "https://github.com/mpprouter/rozo-mpprouter",
       "category": "Agent Payments and Monetization",
