@@ -27,22 +27,24 @@
   <text x="80" y="288" class="t" fill="#262626">AI agent protocols, payments, identity, and tooling on Stellar</text>
 
   <g>
-    <rect x="0" y="318" width="43.69" height="22" fill="#D6D3C4"><title>@stellar/mpp — unclaimed</title></rect>
-    <rect x="43.69" y="318" width="43.69" height="22" fill="#00A7B5"><title>Stellar 8004 — independent</title></rect>
-    <rect x="87.38" y="318" width="43.69" height="22" fill="#D6D3C4"><title>x402 — unclaimed</title></rect>
-    <rect x="139.08" y="318" width="43.69" height="22" fill="#00A7B5"><title>stellar-agent-search — independent</title></rect>
-    <rect x="190.77" y="318" width="174.77" height="22" fill="#00A7B5"><title>MPP Router, RouteDock, TollPay, x402 MCP Stellar Template — independent</title></rect>
-    <rect x="373.54" y="318" width="43.69" height="22" fill="#00A7B5"><title>Prism — independent</title></rect>
-    <rect x="417.23" y="318" width="43.69" height="22" fill="#D6D3C4"><title>Stellar Agent Wallet Skill — unclaimed</title></rect>
-    <rect x="468.92" y="318" width="43.69" height="22" fill="#D6D3C4"><title>Pulsar — unclaimed</title></rect>
-    <rect x="512.62" y="318" width="43.69" height="22" fill="#FDDA24"><title>Stellar Raven — self-reported</title></rect>
-    <rect x="564.31" y="318" width="43.69" height="22" fill="#D6D3C4"><title>AI-Net — unclaimed</title></rect>
-    <rect x="608" y="318" width="43.69" height="22" fill="#00A7B5"><title>CleverCon — independent</title></rect>
-    <rect x="651.69" y="318" width="43.69" height="22" fill="#D6D3C4"><title>Talos — unclaimed</title></rect>
-    <rect x="703.38" y="318" width="87.38" height="22" fill="#D6D3C4"><title>ASGCard, Cards402 — unclaimed</title></rect>
-    <rect x="790.77" y="318" width="43.69" height="22" fill="#FDDA24"><title>Nulucre Agents — self-reported</title></rect>
-    <rect x="834.46" y="318" width="43.69" height="22" fill="#00A7B5"><title>RenderGate — independent</title></rect>
-    <rect x="886.15" y="318" width="218.46" height="22" fill="#D6D3C4"><title>Building with AI, Lumen Loop, Stellar Agentic Payments, Stellar Dev Skill, Stellar Light — unclaimed</title></rect>
-    <rect x="1112.62" y="318" width="87.38" height="22" fill="#D6D3C4"><title>Stellar Agents Hackathon Retrospective, Stellar Hacks: Agents — unclaimed</title></rect>
+    <rect x="0" y="318" width="39.17" height="22" fill="#D6D3C4"><title>@stellar/mpp — unclaimed</title></rect>
+    <rect x="39.17" y="318" width="78.34" height="22" fill="#00A7B5"><title>Stellar 8004, Stellar 8183 — independent</title></rect>
+    <rect x="117.52" y="318" width="39.17" height="22" fill="#D6D3C4"><title>x402 — unclaimed</title></rect>
+    <rect x="164.69" y="318" width="39.17" height="22" fill="#00A7B5"><title>stellar-agent-search — independent</title></rect>
+    <rect x="211.86" y="318" width="117.52" height="22" fill="#00A7B5"><title>AgentPay, MPP Router, RouteDock — independent</title></rect>
+    <rect x="329.38" y="318" width="39.17" height="22" fill="#D6D3C4"><title>ROZO Checkout — unclaimed</title></rect>
+    <rect x="368.55" y="318" width="78.34" height="22" fill="#00A7B5"><title>TollPay, x402 MCP Stellar Template — independent</title></rect>
+    <rect x="454.9" y="318" width="39.17" height="22" fill="#00A7B5"><title>Eunomia — independent</title></rect>
+    <rect x="494.07" y="318" width="39.17" height="22" fill="#D6D3C4"><title>Stellar Agent Wallet Skill — unclaimed</title></rect>
+    <rect x="541.24" y="318" width="39.17" height="22" fill="#D6D3C4"><title>Pulsar — unclaimed</title></rect>
+    <rect x="580.41" y="318" width="39.17" height="22" fill="#FDDA24"><title>Stellar Raven — self-reported</title></rect>
+    <rect x="627.59" y="318" width="39.17" height="22" fill="#D6D3C4"><title>AI-Net — unclaimed</title></rect>
+    <rect x="666.76" y="318" width="39.17" height="22" fill="#00A7B5"><title>CleverCon — independent</title></rect>
+    <rect x="705.93" y="318" width="39.17" height="22" fill="#D6D3C4"><title>Talos — unclaimed</title></rect>
+    <rect x="753.1" y="318" width="78.34" height="22" fill="#D6D3C4"><title>ASGCard, Cards402 — unclaimed</title></rect>
+    <rect x="831.45" y="318" width="39.17" height="22" fill="#FDDA24"><title>Nulucre Agents — self-reported</title></rect>
+    <rect x="870.62" y="318" width="39.17" height="22" fill="#00A7B5"><title>RenderGate — independent</title></rect>
+    <rect x="917.79" y="318" width="195.86" height="22" fill="#D6D3C4"><title>Building with AI, Lumen Loop, Stellar Agentic Payments, Stellar Dev Skill, Stellar Light — unclaimed</title></rect>
+    <rect x="1121.66" y="318" width="78.34" height="22" fill="#D6D3C4"><title>Stellar Agents Hackathon Retrospective, Stellar Hacks: Agents — unclaimed</title></rect>
   </g>
 </svg>

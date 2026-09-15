@@ -203,10 +203,10 @@
       ]
     },
     {
-      "name": "Prism",
-      "url": "https://github.com/Bekirerdem/prism",
+      "name": "Eunomia",
+      "url": "https://github.com/eunomia-finance/eunomia",
       "category": "Wallets, Authorization, and Policy",
-      "reviewedOn": "2026-07-30",
+      "reviewedOn": "2026-08-31",
       "evidence": [
         {
           "type": "deployment",
