@@ -46,7 +46,6 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 ## Wallets, Authorization, and Policy
 
-- [A-Identity](https://github.com/getA-Identity/A-Identity) - 🟢 Mainnet Soroban spend-policy vault that holds an agent's USDC under a daily cap, a per-payment ceiling, a payee allowlist and an owner freeze switch, so an over-limit agent payment is refused on the ledger with a typed error; the same service also settles x402 calls on Stellar with the buyer signing an authorization entry and paying no fee, and its proof page re-reads the ledger on every load ([vault contract](https://stellar.expert/explorer/public/contract/CB5LYXFKKTKDDSCM6JO6C4GNRQUFBGSLYDET6Q56JNFJQSMBKH6KWSYP), [refused payment](https://stellar.expert/explorer/testnet/tx/12df418f21d329f606f412b1aee498714f1178d68fd0db0a97c64f0de6f209d3), [proof](https://a-identity.xyz/proof/stellar)).
 - [Eunomia](https://github.com/eunomia-finance/eunomia) - 🟢 Testnet smart treasury for AI agents with spending caps, session keys, allowlists, escrow, and optional ERC-8004-style reputation gating ([proof](https://stellar.expert/explorer/testnet/contract/CAYWNXHANRY5GSJAZOR4YTKBKNOKTCITE52ZRKDKCAWLDTYWFFVFSPAZ)).
 - [Stellar Agent Wallet Skill](https://github.com/mpprouter/stellar-agent-wallet-skill) - Agent skill for Stellar USDC balances, transfers, swaps, trustlines, and payments to x402 or MPP-gated services.
 
