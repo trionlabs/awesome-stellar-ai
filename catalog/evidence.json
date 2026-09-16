@@ -203,6 +203,38 @@
       ]
     },
     {
+      "name": "A-Identity",
+      "url": "https://github.com/getA-Identity/A-Identity",
+      "category": "Wallets, Authorization, and Policy",
+      "reviewedOn": "2026-09-08",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://github.com/getA-Identity/A-Identity/blob/main/soroban/README.md"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/public/contract/CB5LYXFKKTKDDSCM6JO6C4GNRQUFBGSLYDET6Q56JNFJQSMBKH6KWSYP"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/testnet/contract/CAIL6ECRAB5FUURQ54R7OTZPXRRCDO2S353YT6N6UZUWIBDG2ZOEB4UI"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/testnet/tx/12df418f21d329f606f412b1aee498714f1178d68fd0db0a97c64f0de6f209d3"
+        },
+        {
+          "type": "deployment",
+          "url": "https://stellar.expert/explorer/public/tx/f213371c1241968ee78170923d8c5a3bd9b32950e73bb9c563d800ab2c70ec9e"
+        },
+        {
+          "type": "documentation",
+          "url": "https://a-identity.xyz/proof/stellar"
+        }
+      ]
+    },
+    {
       "name": "Eunomia",
       "url": "https://github.com/eunomia-finance/eunomia",
       "category": "Wallets, Authorization, and Policy",
