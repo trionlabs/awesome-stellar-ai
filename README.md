@@ -46,7 +46,7 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 
 ## Wallets, Authorization, and Policy
 
-- [Eunomia](https://github.com/eunomia-finance/eunomia) - 🟢 Testnet smart treasury for AI agents with spending caps, session keys, allowlists, escrow, and optional Stellar 8004 reputation checks ([proof](https://stellar.expert/explorer/testnet/contract/CAYWNXHANRY5GSJAZOR4YTKBKNOKTCITE52ZRKDKCAWLDTYWFFVFSPAZ)).
+- [Eunomia](https://github.com/eunomia-finance/eunomia) - 🟢 Testnet smart treasury for AI agents with spending caps, session keys, allowlists, escrow, and optional ERC-8004-style reputation gating ([proof](https://stellar.expert/explorer/testnet/contract/CAYWNXHANRY5GSJAZOR4YTKBKNOKTCITE52ZRKDKCAWLDTYWFFVFSPAZ)).
 - [Stellar Agent Wallet Skill](https://github.com/mpprouter/stellar-agent-wallet-skill) - Agent skill for Stellar USDC balances, transfers, swaps, trustlines, and payments to x402 or MPP-gated services.
 
 ## MCP Servers and Agent Tooling
