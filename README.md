@@ -75,6 +75,8 @@ Awesome Stellar AI is independent and is not an official Stellar Development Fou
 - [Stellar Agentic Payments](https://developers.stellar.org/docs/build/agentic-payments) - Official documentation for building agent payment flows with x402 and MPP.
 - [Stellar Dev Skill](https://github.com/stellar/stellar-dev-skill) - AI skill covering Stellar smart contracts, applications, assets, data, agentic payments, standards, and zero-knowledge development.
 - [Stellar Light](https://github.com/Stellar-Light/stellarlight) - Ecosystem data layer for Stellar exposing project intelligence, GitHub activity, and funding data through a web app, a REST API, an MCP server, and an agent skill.
+- [HostDeFi](https://hostdefi.com) - Agent-ready token-safety scanner with a public A2A agent card, hosted MCP server and x402-paid endpoints for autonomous checks.
+
 
 ## Hackathons
 
